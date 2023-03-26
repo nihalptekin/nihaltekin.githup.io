@@ -29,6 +29,7 @@ a{
 li{
     margin-bottom: 15px;
     list-style:decimal;
+    border-radius: 40px;
 
 }
 
