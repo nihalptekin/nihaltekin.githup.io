@@ -1,0 +1,30 @@
+*{
+  margin-left: 10px;
+}
+h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+
+}
+#select{
+    width: 150px;
+}
+p{
+    font-size: x-large;
+}
+
+#submit{
+    display: flex;
+    margin-left: 175px;
+    margin-top: -15px;
+
+}
+#name, #surname {
+    height: 25px;
+    width: 200px;
+}
+#email{
+    height: 25px;
+    width: 200px;
+
+}

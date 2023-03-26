@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+
+  margin: auto;
+  margin-top: 30px;
+  width: 250px;
+  height: 235px;
+  border: 2px gray solid;
+  background-color: gray;
+
+ 
+}
+
+h3{
+display: none;
+
+}
+
+ul{ 
+  display: none;
+
+
+}
+
+
+.link{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+
+#anasayfa{
+  padding-top: 20px;
+  
+}
+
+.menüüst{
+  font-size: xx-large;
+  font-weight:bold;
+  text-align: center;
+  width: 50px;
+  height: 35px;
+  background-color:rgb(118, 78, 5);  
+   transition: width 2s;
+  
+}
+
+.menüalt{
+  width: 50px;
+  height: 200px;
+  background-color: rgb(248, 173, 34);
+
+
+}
+
+
+/* HOVERS */
+
+.menüüst:hover {
+  margin-left: 160px;
+  direction: rtl;
+
+  
+}
+
+.menüüst:hover ~ h3{
+  color: white;
+  text-align: center;
+  display: block;
+  width: 210px;
+  height: 35px;
+  margin-top: -235px;
+  background-color:rgb(118, 78, 5);
+  
+}
+
+.menüüst:hover ~ ul{
+
+  list-style: none;
+  padding-left:30px;
+  display: block;
+  width: 180px;
+  height: 200px;
+  background-color: rgb(248, 173, 34);
+
+}
+
+
+

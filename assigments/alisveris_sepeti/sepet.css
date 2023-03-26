@@ -1,0 +1,86 @@
+.container{
+    margin: 40px auto;
+   width: 90%;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size: large;
+}
+
+table{
+border: 1px white;
+    width: 100%;
+
+}
+th{
+    background-color: rgb(90, 89, 89);
+    color: white;
+    width: 10px;
+    height: 30px;
+}
+th:nth-child(1){
+    text-align: left;
+}
+th:nth-child(2){
+    text-align: left;
+}
+th:nth-child(4){
+    text-align: right;
+}
+tr{
+    height: 45px;
+}
+tr:nth-child(odd){
+    background-color:rgb(240, 238, 238);
+}
+tr:nth-child(even){
+    background-color:  lightgray; 
+}
+
+tr.toplam{
+    text-align: right;
+    color: white;
+    background-color: rgb(90, 89, 89);
+    text-transform: uppercase;
+    
+}
+td:nth-child(3){
+    text-align: center;
+    
+}
+td:nth-child(4){
+    text-align: right;
+    
+}
+td:nth-child(5){
+    text-align: right;
+    
+}
+td:nth-child(6){
+    text-align: center;
+    
+}
+
+.fa-solid, .fa-regular{ font-size: x-large;
+    margin-right: 10px;
+    color: black;
+
+}
+
+
+button{
+    width: 200px;
+    height: 60px;
+    border:none;
+    background-color: salmon;
+    color: white; 
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: large;
+}
+
+
+.btn{
+    display: flex;
+            justify-content: flex-end;
+      
+}
+ 

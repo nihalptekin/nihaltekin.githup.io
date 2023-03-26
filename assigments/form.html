@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        /* margin: 50px; */
+    }
+    #ilce{
+        width: 177px;
+        height: 30px;
+        border: 1.6px solid rgb(116, 116, 226);
+
+    }
+    input{
+        width: 170px;
+        height: 25px;
+        border: 1.6px solid rgb(116, 116, 226);
+        box-shadow: 0.2px 0.2px 0.5px ;
+    }
+    .cinsiyet{
+        width: 15px;   
+        accent-color: red; 
+    }
+    .hobiler{
+         width: auto;
+         height: auto;
+         margin-top: 10px;
+     
+    }
+    #button{
+        height: 25px;
+        margin-left: -50px;
+        border: 1.6px solid rgb(116, 116, 226);
+        color: white;
+        background-color:rgb(178, 178, 178);
+
+    }
+    tr {
+    
+        height: 44px;} 
+
+        #kayit{
+            width: 100px;
+            height: 40px;
+            background-color: rgb(162, 162, 162)
+        }
+    .bosluk{
+    width: 130px;
+    }
+
+</style>
+<body>
+    <table >
+        <tr>
+            <td style=" width: 150px;">Ad</td>
+            <td><input type="text"></td>
+            <td class="bosluk"></td>
+            <td style="width: 150px; ">Hobiler</td>
+
+            <td rowspan="2"><input class="hobiler" type="checkbox" ><label for="Futbol">Futbol</label><br>
+                <input class="hobiler" type="checkbox" ><label for="Voleybol">Voleybol</label><br>
+                <input class="hobiler" type="checkbox" ><label for="Basketbol">Basketbol</label><br>
+               </td>
+        </tr>
+        <tr>
+            <td>Soyad</td>
+            <td><input type="text"></td>
+            <td class="bosluk"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Cinsiyet</td>
+            <td><input type="radio" class="cinsiyet" >
+                <label >Bay</label>
+                <input type="radio" class="cinsiyet">
+                <label>Bayan</label>
+           </td>
+            <td></td>
+            <td>Profil Fotografi</td>
+            <td><input type="search" style="width: 170px;
+                height: 25px;"> <button id="button">Browse</button></td>
+        </tr>
+        <tr>
+            <td>Ilce</td>
+            <td > <select name="" id="ilce"></select></td>
+            <td class="bosluk"></td>
+            <td>Dogum tarihi</td>
+            <td><input id="tarih" type="date" ></td>
+        </tr>
+        <tr>
+            <td>Eposta</td>
+            <td> <input type="email" name="email"></td>
+            <td class="bosluk"></td>
+            <td>Adres</td>
+            <td rowspan="2"><textarea id="adres" cols="20" rows="5" style="margin-top: 10px; border: 1.6px solid rgb(116, 116, 226);" ></textarea></td>
+        </tr>
+        <tr>
+            <td>Kisisel site</td>
+            <td><input type="text"></td>
+            <td class="bosluk"></td>
+            <td></td>
+         
+        </tr>
+        <tr>
+            <td>Telefon</td>
+            <td><input type="tel"></td>
+            <td class="bosluk"></td>
+            <td></td>
+            <td><input id="kayit" type="button" value="Kayit ol"></td>
+           
+        </tr>
+    </table>
+</body>
+</html>

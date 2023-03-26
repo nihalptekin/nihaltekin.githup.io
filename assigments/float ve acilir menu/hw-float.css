@@ -1,0 +1,40 @@
+.container {
+    background-color: rgb(248, 169, 183);
+    width: 30%;
+    height: 80%;
+    border: 1px solid black;
+    padding: 5px 5px 13px 5px;
+    margin:30px auto;
+ 
+}
+.erste, .zweite, .dritte, .vierte, .fünfte {
+    width: 100%;
+    display: inline-block;
+
+    
+}
+.box1 {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(55, 54, 54);
+    float: left;
+    color: aliceblue;
+
+}
+.box1, .box2,
+.box3 {
+    float: left;
+}
+.box4, .box5,
+.box6 {
+    float: right;
+}
+.box8, .box11, .box13, .box15, .box16, .box17{
+float:right;
+}
+
+/* .fünfte{
+    margin-bottom: 10px;
+} */
+
