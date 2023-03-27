@@ -36,6 +36,10 @@
 
 }
 
+.buton:hover{
+    opacity: 0.4;
+}
+
 .buton4, .buton8, .buton12, .buton16{
     background-color: rgb(212, 137, 46);
 }

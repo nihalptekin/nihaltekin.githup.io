@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+
+    width: 800px;
+    height: 1100px;
+    background-color: rgb(47, 46, 46);
+    margin: 40px;
+    text-align: center;
+    display: inline-block;
+}
+
+header{
+   
+    width: 760px;
+    height: 100px;
+    background-color: rgb(234, 145, 160);
+    margin: 30px;
+    padding-top: 4px;
+    margin-left: 23px;
+    border: 3px solid rgb(27, 26, 26);
+
+  
+}
+
+.logo-menü{
+
+    height: 110px;
+    font-size: 45px;
+    color: white;   
+}
+
+
+#logo{
+    display: inline-block;
+    width:220px;
+    height: 85px;
+    background-color:rgb(101, 248, 57);
+    padding-top: 15px;
+    border: 3px solid rgb(25, 24, 24);
+  
+}
+
+#menü{
+    display: inline-block;
+    background-color: rgb(22, 136, 217);
+    width: 500px;
+    height: 85px;
+    padding-top: 15px;
+    border: 3px solid rgb(23, 23, 23);
+  
+}
+
+.banner{
+    width: 770px;
+    height: 300px;
+    background-color: rgb(198, 55, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 50px;
+    font-size: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid rgb(27, 27, 27);
+}
+
+.navbar{
+    display: inline-block;
+
+    margin-top: 15px;
+    border: 3px solid rgb(27, 27, 27);
+   
+    
+}
+
+#box1{
+    background-color: rgb(101, 248, 57);
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    
+    
+}
+#box2{
+    background-color: rgb(101, 248, 57);
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+
+}
+#box3{ 
+    background-color: rgb(101, 248, 57);
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+}
+
+
+.yellowboxes{
+    margin-top: 100px;
+    
+}
+
+#box4{
+    display: inline-block;
+    background-color: rgb(221, 171, 21);
+    width: 120px;
+    height: 120px;
+    margin-right: 2rem;
+    border: 3px solid rgb(27, 27, 27);
+
+
+
+}
+ #box5{  
+    display: inline-block;
+    background-color: rgb(221, 171, 21);
+    width: 250px;
+    height: 120px;
+    margin-right: 2rem;
+    border: 3px solid rgb(27, 27, 27);
+
+    
+}
+#box6{
+    display: inline-block;
+    background-color: rgb(221, 171, 21);
+    width: 120px;
+    height: 120px;  
+    border: 3px solid rgb(27, 27, 27);
+}
+
+.greenboxes{
+    margin-top: 30px;
+    display: flex;
+   justify-content: space-evenly;
+   
+  
+}
+
+
+#box7{  
+ 
+    background-color: rgb(43, 134, 43);
+    width: 200px;
+    height: 120px;  
+    margin-left: 10px;
+    border: 3px solid rgb(27, 27, 27);
+
+}
+#box8{  
+
+    background-color: rgb(43, 134, 43);
+    width: 120px;
+    height: 120px;  
+    margin-left: 10px;
+    border: 3px solid rgb(27, 27, 27);
+
+}
+#box9{  
+   
+    background-color:rgb(43, 134, 43);
+    width: 120px;
+    height: 120px;  
+    margin-right: 10px;
+    border: 3px solid rgb(27, 27, 27);
+   
+
+}
+#box10{  
+
+    background-color: rgb(43, 134, 43);
+    width: 200px;
+    height: 120px; 
+    margin-right: 10px;
+    border: 3px solid rgb(27, 27, 27);
+
+}
