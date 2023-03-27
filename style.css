@@ -39,6 +39,10 @@ li{    text-align: center;
     padding-bottom: 5px;
 
 }
+li:hover{
+    width: 220px;
+    height: 35px;
+}
 
 a:hover{
     color: white;
