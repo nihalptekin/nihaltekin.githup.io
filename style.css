@@ -1,38 +1,77 @@
 body{
 
-    background-color:rgb(218, 162, 246);
+    background-color:rgb(246, 201, 162);
 }
 
 h1{
-    color: white;   
+    color: brown;  
     margin-left: 20px;
+    font-size: 40px;
 
 }
 
 .links{
     display: inline-block;
     font-size: larger;
-
-
 }
 
 a{
-
-    display: inline-block;
+ 
     color: black;
-    text-decoration: underline;
-    
-    
+    text-decoration: none;
+    font-size: 23px;
+
 
 }
 
-li{
-    margin-bottom: 15px;
+li{    text-align: center;
+    width: 200px;
+    height: 25px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    background-color: darksalmon;
+    
     list-style:decimal;
+    font-weight: 700;
     border-radius: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 
 }
 
 a:hover{
     color: white;
+
+}
+
+.bir:hover{
+background-color: lightblue;
+}
+.iki:hover{
+    background-color: lightcoral;
+}
+.üc:hover{
+    background-color: lightgreen;
+}
+.dört:hover{
+    background-color: lightpink;
+}
+.bes:hover{
+    background-color: lightskyblue;
+}
+.alti:hover{
+    background-color: gold;
+}
+.yedi:hover{
+    background-color: violet;
+}
+.sekiz:hover{
+    background-color: mediumpurple;
+}
+.dokuz:hover{
+    background-color:palegreen
+}
+.on:hover{
+    background-color: aquamarine;
 }
