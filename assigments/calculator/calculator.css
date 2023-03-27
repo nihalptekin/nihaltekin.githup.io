@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    /* grid-template-columns:1fr 1fr 1fr 1fr ; */
+
+    /* her kutuyu 15vs'lik 4'e böl tasan olursda parantez disinda yazariz. bunu yazinca content16 da digerlerine benzedi */
+    grid-template-rows: repeat(4, 75px);
+    gap: 10px 5px;
+    margin: 50px;
+    width: 400px;
+    height: 650px;
+    background-color: black;
+    border-radius: 30px;
+}
+
+
+.buton{
+    font-size: 35px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 17px;
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    background-color: rgb(65, 65, 65);
+    position: relative;
+    left: 1.5rem;
+    top: 13rem;
+
+}
+
+.buton4, .buton8, .buton12, .buton16{
+    background-color: rgb(212, 137, 46);
+}
+.buton1, .buton2, .buton3{
+    background-color: rgb(167, 163, 163);
+    color: black;
+}
+
+.buton17{
+    grid-row-start: 5;
+    grid-column-end: 2;
+    width: 160px;
+    text-align: start;
+    padding-left: 30px;
+}
+
