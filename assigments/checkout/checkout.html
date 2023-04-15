@@ -9,166 +9,338 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./checkout.css">
-
- 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./checkout.css" />
   </head>
   <body>
-    <h1 class="text-center m-3" style="font-family: Arial, Helvetica, sans-serif;">Chekout</h1>
+    <h1
+      class="text-center m-3"
+      style="font-family: Arial, Helvetica, sans-serif"
+    >
+      Chekout
+    </h1>
 
-
-
-
-    <div class="row  d-flex justify-content-center" style=" position:relative; z-index:2;" >
-
-      <div class=" order-2 order-sm-1 order-md-1 order-lg-1 col-sm-6 col-md-4 col-lg-4 mt-3 d-flex justify-content-center " style="color:gray; font-family: Arial, Helvetica, sans-serif; ">
-        <form  action="#">
-            <h4 style="color:rgb(81, 81, 81); ">Contact Information</h4>
-            <div>
-              <label class="small" style="color: black;" for="email">Email</label>
-              
-              <div class="d-flex"> 
-      
-                <i class="fa-solid fa-envelope"style=" margin-right: -25px; margin-top: 10px; z-index:0 ;"
-                ></i> 
-                <input class= "p-1" style="width: 450px;" id="email" type="tel"  placeholder="      Enter your email..."/></div>
-             
+    <div
+      class="row d-flex justify-content-center"
+      style="position: relative; z-index: 2"
+    >
+      <div
+        class="order-2 order-sm-1 order-md-1 order-lg-1 col-sm-6 col-md-4 col-lg-4 mt-3 d-flex justify-content-center"
+        style="color: gray; font-family: Arial, Helvetica, sans-serif"
+      >
+        <form class=" " action="#">
+          <h4 style="color: rgb(81, 81, 81)">Contact Information</h4>
+          <div class="order-md-1">
+            <label for="email">Email</label>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="fa-solid fa-envelope"></i
+                ></span>
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter your email"
+                aria-label="email"
+                aria-describedby="basic-addon1"
+              />
             </div>
-      
-          <div>
-            <label class="small" style="color: black;" for="phone">Phone</label>
-            
-            <div class="d-flex"> 
-              <i class="fa-solid fa-phone" style=" margin-right: -25px; margin-top: 10px; z-index:0 ;"></i> <input class=" p-1" style="width: 450px;"  id="phone" type="tel"  placeholder="      Enter your phone..."/></div>
-           
           </div>
           <div>
-            <h4 class="mt-5 "
-            style="color:rgb(81, 81, 81) ">Shipping Adress</h4>
-         
-            <label class="small" style="color: black;" for="name">Full name</label>
-        
-        
-            <div class="d-flex"><i class="fa-solid fa-user"  style=" margin-right: -25px; margin-top: 10px; z-index:0 ;"></i> <input class="w-100 p-1" id="name" type="text" placeholder="      Enter your Fullname..."/></div>
-         
+            <label for="phone">Phone</label>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="fa-solid fa-phone"></i
+                ></span>
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                placeholder=" Enter your phone..."
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+            </div>
           </div>
           <div>
-   
-            <label class="small" style="color: black;" for="address">Address</label>
-
-            <div class="d-flex">   <i class="fa-solid fa-house" style=" margin-right: -25px; margin-top: 10px; z-index:0 ;"></i> <input class="w-100 p-1" id="addres" type="text" placeholder="     Enter your address..."/></div>
-         
+            <h4 class="mt-5" style="color: rgb(81, 81, 81)">Shipping Adress</h4>
+            <br />
+            <label for="name">Full name</label>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="fa-solid fa-user"></i
+                ></span>
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter your Fullname..."
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+            </div>
           </div>
           <div>
-
-            <label  class="small" style="color: black;" for="city">City</label>
-
-            <div class="d-flex"> <i class="fa-solid fa-city" style=" margin-right: -25px; margin-top: 10px; z-index:0 ;"></i> <input class="w-100 p-1" id="city" type="text" placeholder="     Enter your city..."/></div>
-           
+            <label for="address">Address</label>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="fa-solid fa-house"></i>
+                </span>
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter your address..."
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+            </div>
           </div>
-          <div class="d-sm-block d-md-flex">
+          <div></div>
+          <label for="city">City</label>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1"
+                ><i class="fa-solid fa-city"></i
+              ></span>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your city..."
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+          <div class="d-flex mb-3">
             <div>
-              <br>
-              <label class="small" style="color: black;" for="country">Country</label>
-              <br>
-              <div class="d-flex ">
-                <i class="fa-solid fa-earth-americas "style=" margin-right: -25px; margin-top: 10px; z-index:0 ;"  ></i> <select style="width: 110px;" class="mr-3 p-2" name="country" id="country">
+              <label for="country">Country</label>
+              <br />
+              <div class="d-flex">
+                <i
+                  class="fa-solid fa-earth-americas ml-2"
+                  style="margin-right: -25px; margin-top: 10px; z-index: 0"
+                ></i>
+                <select
+                  style="width: 150px"
+                  class="p-2"
+                  name="country"
+                  id="country"
+                >
                   <option class="text-center" value="country">Turkey</option>
                   <option value="country">Germany</option>
                   <option value="country">USA</option>
                   <option value="country">Canada</option>
                   <option value="country">UK</option>
-              </select>
+                </select>
               </div>
-              
             </div>
-  
-            <div class="">
-              <br>
-              <label class="small" style="color: black;" for="post">Post code</label>
-              <br>
-              <div class="d-flex">
-                <i class="fa-sharp fa-solid fa-envelopes-bulk" style=" margin-right: -25px; margin-top: 10px; z-index:0 ;" ></i><input style="width: 250px;" class="p-1" id="post" type="text" placeholder="     Enter your postel code..."/>
+            <div class="pl-4">
+              <label for="post">Post code</label>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i class="fa-solid fa-envelopes-bulk"></i
+                  ></span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your postal code..."
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
               </div>
-           
             </div>
           </div>
-        
-           <br>
           <div>
-            <input id="info" type="checkbox" name="info" value="info">
-            <label class="small" style="color: black;" for="info">See this information next time</label><br>
+            <input id="info" type="checkbox" name="info" value="info" />
+            <label for="info">See this information next time</label><br />
           </div>
-
-
-          <div class="d-flex justify-content-end " >
-            <button class=" w-25 p-2 border rounded sm-w-50 justify-content-center" style=" background-color: rgb(235, 138, 12); color: white; ">Continue</button>
+          <div class="d-flex justify-content-center ">
+            <button
+              class="w-50 p-2 border rounded"
+              style="background-color: rgb(235, 138, 12); color: white"
+            >
+              Continue
+            </button>
           </div>
-
         </form>
       </div>
-      <div class=" order-1 col-sm-6 col-md-4 col-lg-4 mt-3 d-flex justify-content-center ">
-        <div class= "p-2 pl-3  " style="border-radius:15px; background-color: rgb(234, 231, 231); width:460px; height: 425px;">
+      <div
+        class="order-1 col-sm-6 col-md-4 col-lg-4 mt-3 d-flex justify-content-center"
+      >
+        <div
+          class="p-2 pl-3"
+          style="
+            border-radius: 15px;
+            background-color: rgb(234, 231, 231);
+            width: 460px;
+            height: 425px;
+          "
+        >
+          <div class="d-flex">
+            <img
+              class=""
+              style="border-radius: 15px; margin-right: 25px"
+              src="./bag.png"
+              alt="bag"
+              width="130px"
+              height="135px"
+            />
+            <div>
+              <p class="lead">Vintage Backbag</p>
+              <p class="lead" style="margin-top: -20px; color: coral">
+                $54.99
+                <span
+                  class="small font-weight-light"
+                  style="text-decoration: line-through; color: black"
+                  >$94.99</span
+                >
+              </p>
 
-        <div class="d-flex">
-          <img class="" style="border-radius: 15px; margin-right: 25px; " src="./bag.png" alt="bag" width="130px" height="135px">
-          <div>
-           <p class="lead " >Vintage Backbag</p>
-           <p class="lead" style="margin-top:-20px; color:coral;">$54.99 <span class="small font-weight-light " style="text-decoration: line-through; color: black;">$94.99</span></p>
+              <div class="d-flex ml-2">
+                <button
+                  id="number"
+                  type="button"
+                  class="d-inline h-25 border rounded mt-1"
+                  style="
+                    font-weight: 600;
+                    font-size: 20px;
+                    background-color: rgb(206, 203, 203);
+                    margin-right: -35px;
+                    z-index: 2;
+                  "
+                >
+                  -
+                </button>
 
-           <div class="d-flex ml-2 ">
-            <button id="number" type="button" class= " d-inline h-25 border rounded mt-1" style="font-weight: 600; font-size: 20px; background-color: rgb(206, 203, 203); margin-right: -35px; z-index: 2;" >-</button>
-            
-            <input id="number" class=" border rounded border-dark text-center w-100" type="text" max="10" placeholder="1"  style=" height: 40px;  background-color: rgb(234, 231, 231); z-index: 1;">
-            
-            <button id="number" type="button" class="mt-1 h-25 border rounded" style="font-weight: 600; font-size: 20px;background-color: rgb(206, 203, 203); margin-left:-35px; z-index: 2;">+</button>
+                <input
+                  id="number"
+                  class="border rounded border-dark text-center w-100"
+                  type="text"
+                  max="10"
+                  placeholder="1"
+                  style="
+                    height: 40px;
+                    background-color: rgb(234, 231, 231);
+                    z-index: 1;
+                  "
+                />
+
+                <button
+                  id="number"
+                  type="button"
+                  class="mt-1 h-25 border rounded"
+                  style="
+                    font-weight: 600;
+                    font-size: 20px;
+                    background-color: rgb(206, 203, 203);
+                    margin-left: -35px;
+                    z-index: 2;
+                  "
+                >
+                  +
+                </button>
+              </div>
+            </div>
           </div>
+          <div class="d-flex mt-4">
+            <img
+              class="mr-4"
+              style="border-radius: 15px"
+              src="./shoose.png"
+              alt="bag"
+              width="130px"
+              height="135px"
+            />
+            <div class="d-inline-block justify-content-center text-start">
+              <p class="lead">Levi Shoes</p>
+              <p class="lead" style="margin-top: -20px; color: coral">
+                $74.99
+                <span
+                  class="small font-weight-light"
+                  style="text-decoration: line-through; color: black"
+                  >$124.99</span
+                >
+              </p>
 
-           </div>
-  
+              <div class="d-flex ml-2">
+                <button
+                  id="number"
+                  type="button"
+                  class="d-inline h-25 border rounded mt-1"
+                  style="
+                    font-weight: 600;
+                    font-size: 20px;
+                    background-color: rgb(206, 203, 203);
+                    margin-right: -35px;
+                    z-index: 2;
+                  "
+                >
+                  -
+                </button>
+
+                <input
+                  id="number"
+                  class="border rounded border-dark text-center w-100"
+                  type="text"
+                  max="10"
+                  placeholder="1"
+                  style="
+                    height: 40px;
+                    background-color: rgb(234, 231, 231);
+                    z-index: 1;
+                  "
+                />
+
+                <button
+                  id="number"
+                  type="button"
+                  class="mt-1 h-25 border rounded"
+                  style="
+                    font-weight: 600;
+                    font-size: 20px;
+                    background-color: rgb(206, 203, 203);
+                    margin-left: -35px;
+                    z-index: 2;
+                  "
+                >
+                  +
+                </button>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 50px">
+            <div
+              class="d-flex justify-content-between border-top border-secondary border-1"
+            >
+              <p class="">Shipping</p>
+              <p class="">$19</p>
+            </div>
+
+            <div
+              class="d-flex justify-content-between border-top border-secondary border-1"
+            >
+              <p>Total</p>
+              <p>$148.98</p>
+            </div>
+          </div>
         </div>
-        <div class="d-flex mt-4">
-          <img  class="mr-4" style="border-radius: 15px;" src="./shoose.png" alt="bag" width="130px" height="135px">
-          <div class="d-inline-block justify-content-center text-start ">
-           <p class="lead ">Levi Shoes</p>
-           <p class="lead" style="margin-top:-20px; color:coral;">$74.99 <span class="small font-weight-light" style="text-decoration: line-through; color: black;">$124.99</span></p>
-
-           <div class="d-flex ml-2 ">
-            <button id="number" type="button" class= " d-inline h-25 border rounded mt-1" style="font-weight: 600; font-size: 20px; background-color: rgb(206, 203, 203); margin-right: -35px; z-index: 2;" >-</button>
-            
-            <input id="number" class=" border rounded border-dark text-center w-100" type="text" max="10" placeholder="1"  style=" height: 40px;  background-color: rgb(234, 231, 231);z-index: 1;">
-            
-            <button id="number" type="button" class="mt-1 h-25 border rounded" style="font-weight: 600; font-size: 20px;background-color: rgb(206, 203, 203); margin-left:-35px; z-index: 2;">+</button>
-          </div>
-           </div>
-          </div>
-     <div style="margin-top: 50px; ">
-       <div class=" d-flex justify-content-between border-top border-secondary border-1">
-        <p class="">Shipping</p><p class="">$19</p>
-      </div>
-       
-      <div class=" d-flex justify-content-between border-top border-secondary border-1">
-        <p>Total</p><p >$148.98</p>
       </div>
     </div>
-
-      </div>
-    </div>
- 
-
-
-    </div>
-
-
-
-
-
 
     <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-    crossorigin="anonymous"
-  ></script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
